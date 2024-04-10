@@ -20,7 +20,7 @@ body {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1007px) {
     body {
         background-color: #FBE192;
         justify-content: center;
@@ -35,7 +35,7 @@ body {
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 640px) {
     body {
         background-color: #C4BDAF;
     }
