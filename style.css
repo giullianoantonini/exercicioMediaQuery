@@ -1,0 +1,45 @@
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+
+  padding-top: 10px;
+  background-color: #bdd7cf;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #CAD5DD;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #FBE192;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        background-color: #e3cff3;
+        border: 1px solid #9D56D5;
+        color: #1AAE9F;
+    }
+
+}
+
+@media (max-width: 300px) {
+    body {
+        background-color: #C4BDAF;
+    }
+
+    .card {
+        display: none;
+    }
+}
